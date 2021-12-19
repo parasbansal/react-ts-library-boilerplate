@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import SayHello from "react-ts-library-boilerplate";
+import { Button } from "react-ts-library-boilerplate";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <SayHello name="Paras" />
+        <Button label="test-button" />
       </header>
     </div>
   );
